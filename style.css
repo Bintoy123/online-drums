@@ -1,0 +1,102 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background-color: #283149;
+  font-family: "Arvo", cursive;
+}
+h1,footer{
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 4px 0 #00FFFF;
+}
+footer{
+  font-size: 1rem;
+  text-shadow: .5px 0 #00FFFF;
+  margin-bottom: 50px;
+}
+img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+p{
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  line-height: .5;
+}
+.hello{
+  display: inline-block;
+  font-size: 5rem;
+}
+.container{
+  margin: 10% auto;
+  width: 1000px;
+}
+.W{
+  background-image: url("images/Hi-hat1.png");
+  background-size: 190px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.A{
+  background-image: url("images/Toms.png");
+  background-size: 190px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.S{
+  background-image: url("images/Toms.png");
+  background-size: 190px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.D{
+  background-image: url("images/Crash cymbal.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.J{
+  background-image: url("images/snare drum.png");
+  background-size: 190px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.K{
+  background-image: url("images/bass drum pedal.png");
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.L{
+  background-image: url("images/Ride cymbal.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+
+}
+.drum {
+  padding-top: 5px;
+  border-radius: 100%;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  background-color: orange;
+  text-shadow: 3px 0 #DBEDF3;
+  text-align: center;
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  margin: 10px;
+}
